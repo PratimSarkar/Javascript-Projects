@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
+
+* { 
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://www.nomadicweekends.com/wp-content/uploads/2021/02/Mim-Tea-Garden-Homestay-41.jpeg");
+    min-height: 50vh;
+    min-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center center;
+    font-family: "Urbanist" , sans-serif;
+    margin: 0;
+    
+}
+
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5 rem;
+    color: white;
+    font-weight: bold;
+}
+
+.Countdown-container{
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+     color: white;
+     font-weight: bolder;
+}
+
+.big-text{
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.countdown el{
+    text-align: center;
+}
+
+.countdown el span{
+    font-size: 2.5rem;
+    color: black;
+}
+.countdown el seconds-c{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+     color: white;
+     font-weight: bolder;
+     font-size: 140px
+     
+}
